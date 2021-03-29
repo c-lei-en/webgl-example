@@ -112,4 +112,4 @@ function getWebGLContext (canvas, opt_debug) {
   return gl
 }
 
-export { getWebGLContext }
+export { getWebGLContext, initShaders }
