@@ -7,7 +7,8 @@
 
 <script>
 // import helloWebgl from '@/examples/helloWebgl/helloWebgl'
-import helloPoint from '@/examples/helloPoint/helloPoint'
+// import helloPoint from '@/examples/helloPoint/helloPoint'
+import helloPoint from '@/examples/helloPoint/helloPoint1'
 export default {
   components: {
     // helloWebgl
