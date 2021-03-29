@@ -40,7 +40,14 @@ export default {
 
     // * 获取attribute 变量的存储位置
     const aPosition = gl.getAttribLocation(gl.program, 'a_Position')
+    if (aPosition < 0) {
+      console.error('指定的attribute变量不存在')
+    }
+
     const uFragColor = gl.getUniformLocation(gl.program, 'u_FragColor')
+    if (!uFragColor) {
+      console.error('指定的uniform变量不存在')
+    }
 
     canvas.onmousedown = ev => {
       this.canvasClick(ev, gl, canvas, aPosition, uFragColor)
