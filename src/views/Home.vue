@@ -5,7 +5,11 @@
     <!-- <color-point></color-point> -->
     <!-- <multi-point></multi-point> -->
     <!-- <hello-triangle></hello-triangle> -->
-    <hello-quad></hello-quad>
+    <!-- <hello-quad></hello-quad> -->
+    <!-- <triangle-rotation></triangle-rotation> -->
+    <!-- <rotation-mat></rotation-mat> -->
+    <!-- <translate-mat></translate-mat> -->
+    <zoom-mat></zoom-mat>
   </div>
 </template>
 
@@ -17,7 +21,12 @@
 // import colorPoint from '@/examples/helloPoint/colorPoint'
 // import multiPoint from '@/examples/helloPoint/multiPoints'
 // import helloTriangle from '@/examples/helloTriangles/helloTriangles'
-import helloQuad from '@/examples/helloQuad/helloQuad'
+// import helloQuad from '@/examples/helloQuad/helloQuad'
+// import triangleTranslate from '@/examples/triangleTranslateAndRotation/triangleTranslate'
+// import triangleRotation from '@/examples/triangleTranslateAndRotation/triangleRotation'
+// import rotationMat from '@/examples/triangleTranslateAndRotation/rotationMat4'
+// import translateMat from '@/examples/triangleTranslateAndRotation/translateMat4'
+import zoomMat from '@/examples/triangleTranslateAndRotation/zoomMat4'
 export default {
   components: {
     // helloWebgl
@@ -25,7 +34,11 @@ export default {
     // colorPoint
     // multiPoint
     // helloTriangle
-    helloQuad
+    // helloQuad
+    // triangleRotation
+    // rotationMat
+    // translateMat
+    zoomMat
   }
 }
 </script>
