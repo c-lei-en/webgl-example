@@ -10,7 +10,9 @@
     <!-- <rotation-mat></rotation-mat> -->
     <!-- <translate-mat></translate-mat> -->
     <!-- <zoom-mat></zoom-mat> -->
-    <rotated-matrix></rotated-matrix>
+    <!-- <rotated-matrix></rotated-matrix> -->
+    <!-- <translate-matrix></translate-matrix> -->
+    <scale-matrix></scale-matrix>
   </div>
 </template>
 
@@ -28,7 +30,9 @@
 // import rotationMat from '@/examples/triangleTranslateAndRotation/rotationMat4'
 // import translateMat from '@/examples/triangleTranslateAndRotation/translateMat4'
 // import zoomMat from '@/examples/triangleTranslateAndRotation/zoomMat4'
-import rotatedMatrix from '@/examples/seniorTransform/rotatedMatrix4'
+// import rotatedMatrix from '@/examples/seniorTransform/rotatedMatrix4'
+// import translateMatrix from '@/examples/seniorTransform/translateMatrix4'
+import scaleMatrix from '@/examples/seniorTransform/scaleMatrix4'
 export default {
   components: {
     // helloWebgl
@@ -41,7 +45,9 @@ export default {
     // rotationMat
     // translateMat
     // zoomMat
-    rotatedMatrix
+    // rotatedMatrix
+    // translateMatrix
+    scaleMatrix
   }
 }
 </script>
