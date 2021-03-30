@@ -2,7 +2,8 @@
   <div class="home">
     <!-- <hello-webgl></hello-webgl> -->
     <!-- <hello-point></hello-point> -->
-    <color-point></color-point>
+    <!-- <color-point></color-point> -->
+    <multi-point></multi-point>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 // import helloPoint from '@/examples/helloPoint/helloPoint'
 // import helloPoint from '@/examples/helloPoint/helloPoint1'
 // import helloPoint from '@/examples/helloPoint/helloPoint2'
-import colorPoint from '@/examples/helloPoint/colorPoint'
+// import colorPoint from '@/examples/helloPoint/colorPoint'
+import multiPoint from '@/examples/helloPoint/multiPoints'
 export default {
   components: {
     // helloWebgl
     // helloPoint
-    colorPoint
+    // colorPoint
+    multiPoint
   }
 }
 </script>
