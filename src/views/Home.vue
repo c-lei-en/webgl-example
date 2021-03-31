@@ -12,7 +12,9 @@
     <!-- <zoom-mat></zoom-mat> -->
     <!-- <rotated-matrix></rotated-matrix> -->
     <!-- <translate-matrix></translate-matrix> -->
-    <scale-matrix></scale-matrix>
+    <!-- <scale-matrix></scale-matrix> -->
+    <!-- <rotate-before-translate></rotate-before-translate> -->
+    <translate-before-rotate></translate-before-rotate>
   </div>
 </template>
 
@@ -32,7 +34,9 @@
 // import zoomMat from '@/examples/triangleTranslateAndRotation/zoomMat4'
 // import rotatedMatrix from '@/examples/seniorTransform/rotatedMatrix4'
 // import translateMatrix from '@/examples/seniorTransform/translateMatrix4'
-import scaleMatrix from '@/examples/seniorTransform/scaleMatrix4'
+// import scaleMatrix from '@/examples/seniorTransform/scaleMatrix4'
+// import rotateBeforeTranslate from '@/examples/seniorTransform/rotateBeforeTranslate'
+import translateBeforeRotate from '@/examples/seniorTransform/translateBeforeRotate'
 export default {
   components: {
     // helloWebgl
@@ -47,7 +51,9 @@ export default {
     // zoomMat
     // rotatedMatrix
     // translateMatrix
-    scaleMatrix
+    // scaleMatrix
+    // rotateBeforeTranslate
+    translateBeforeRotate
   }
 }
 </script>
